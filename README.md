@@ -1,4 +1,4 @@
-# AI/ML/DL/NLP/CV 논문을 읽고 정리하는 레포
+# AI, ML, DL, NLP, CV Paper study
 
 - Reference
     - https://media-ai.tistory.com/7
