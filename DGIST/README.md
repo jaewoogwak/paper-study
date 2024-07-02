@@ -19,3 +19,35 @@
 4. 당신이 참고하고 싶은 다른 레퍼런스에는 어떤 것이 있는가?
 
 -   VQ-VAE로 classification을 할 수 있는가?
+
+### How VQ-VAEs differ from traditional VAEs
+
+-   Latent vector from encoder is discrete vector (VAE is continuous vector)
+-   Referring to the embedding space(codebook), map the latent vector to a discrete vector and input it to the decoder.
+
+![alt text](./images/image.png)
+
+### How does VQ-VAE work?
+
+-   Convert the image to a discrete vector and reproduce the discrete vector back to the image
+
+### How des Encoder(VQ-VAE) work?
+
+-   Image passes through the Conv Layer and turns into a feature map
+
+![alt text](./images/image2.png)
+
+-   Encoder structure
+    ![alt text](./images/image3.png)
+
+-   Encoder Output
+    ![alt text](./images/image5.png)
+
+-   pre_vq_conv
+    ![alt text](./images/image6.png)
+
+-   z_quantized (refer to embedding space)
+    ![alt text](./images/image7.png)
+
+-   encoding indices
+    ![alt text](./images/image8.png)
